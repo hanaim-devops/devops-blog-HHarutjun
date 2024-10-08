@@ -1,9 +1,9 @@
 [book]
-authors = ["Bart"]
+authors = ["Harutjun"]
 language = "nl"
 multilingual = false
 src = "src"
-title = "DevOps Blog"
+title = "DevOps Jaeger Blog"
 
 [output.linkcheck]
 warning-policy = "ignore"

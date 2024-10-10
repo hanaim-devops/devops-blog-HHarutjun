@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.0",
-    "jaeger-client": "^3.19.0"
+    "jaeger-client": "^3.19.0",
+    "jaeger-prototype": "file:"
   }
 }

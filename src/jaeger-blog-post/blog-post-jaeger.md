@@ -19,6 +19,7 @@
       - [4. Praktijkexperimenten](#4-praktijkexperimenten)
   - [Resultaten](#resultaten)
     - [Resultaat Deelvraag 1: Waar dient Jaeger voor in een DevOps-landschap?](#resultaat-deelvraag-1-waar-dient-jaeger-voor-in-een-devops-landschap)
+      - [Het Verschil tussen Monitoring, Tracing en Logging](#het-verschil-tussen-monitoring-tracing-en-logging)
     - [Resultaat Deelvraag 2: Welke voordelen en nadelen biedt Jaeger ten opzichte van andere tracing-tools in een DevOps-context?](#resultaat-deelvraag-2-welke-voordelen-en-nadelen-biedt-jaeger-ten-opzichte-van-andere-tracing-tools-in-een-devops-context)
       - [Voordelen van Jaeger](#voordelen-van-jaeger)
       - [Nadelen van Jaeger](#nadelen-van-jaeger)
@@ -117,6 +118,18 @@ Jaeger stelt ontwikkelaars en operators in staat om de interacties tussen versch
 Daarnaast biedt Jaeger gedetailleerde informatie over fouten en uitzonderingen die zich kunnen voordoen binnen een microservices-architectuur. Dit is essentieel voor teams die snel problemen willen lokaliseren en downtime willen minimaliseren (Features, n.d.). Jaeger ondersteunt ook visuele hulpmiddelen waarmee gebruikers de communicatie tussen microservices kunnen visualiseren. Deze visualisaties helpen bij het in kaart brengen van de afhankelijkheden tussen services en bieden inzicht in de algehele architectuur (Frontend/UI, n.d.).
 
 Een ander belangrijk aspect van Jaeger is de mogelijkheid om te integreren met monitoringtools zoals Prometheus en Grafana, wat teams een uitgebreide kijk geeft op de prestaties van hun systemen (Monitoring Jaeger, n.d.). Bovendien helpt Jaeger bij het definiëren en monitoren van Service Level Objectives (SLO's) door inzicht te bieden in responsetijden en de beschikbaarheid van microservices (Service Performance Monitoring (SPM), n.d.).
+
+#### Het Verschil tussen Monitoring, Tracing en Logging
+
+In het bredere DevOps-landschap werken **monitoring**, **tracing**, en **logging** samen om de prestaties en gezondheid van een systeem optimaal in de gaten te houden. Elk van deze tools heeft een specifieke rol:
+
+- **Monitoring**: Richt zich op het bewaken van kernstatistieken zoals CPU-gebruik, geheugen en foutpercentages. Het helpt om de algemene gezondheid van het systeem te controleren en geeft waarschuwingen als bepaalde drempelwaarden worden overschreden.
+  
+- **Tracing**: Dit is waar Jaeger in uitblinkt. Het volgt individuele verzoeken door een gedistribueerd systeem, zodat ontwikkelaars precies kunnen zien hoe een specifieke aanvraag door verschillende microservices stroomt. Dit helpt om bottlenecks of prestatieproblemen te identificeren.
+  
+- **Logging**: Geeft gedetailleerde gebeurtenissen of foutmeldingen weer die tijdens de uitvoering van het systeem optreden. Logs zijn nuttig voor het achterhalen van specifieke gebeurtenissen of fouten in het systeem.
+
+Deze drie concepten vullen elkaar aan in het proces van systeemobservatie. **Jaeger** richt zich specifiek op **tracing**, wat betekent dat het zich bezighoudt met het volgen van de route van individuele verzoeken door verschillende services binnen een microservices-architectuur. Dit helpt bij het vinden van vertragingen, het opsporen van fouten en het verbeteren van de algehele prestaties van gedistribueerde systemen.
 
 | **Toepassing**                | **Beschrijving**                                                                              |
 |-------------------------------|----------------------------------------------------------------------------------------------|

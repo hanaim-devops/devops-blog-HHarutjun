@@ -123,13 +123,13 @@ Een ander belangrijk aspect van Jaeger is de mogelijkheid om te integreren met m
 
 In het bredere DevOps-landschap werken **monitoring**, **tracing**, en **logging** samen om de prestaties en gezondheid van een systeem optimaal in de gaten te houden. Elk van deze tools heeft een specifieke rol:
 
-- **Monitoring**: Richt zich op het bewaken van kernstatistieken zoals CPU-gebruik, geheugen en foutpercentages. Het helpt om de algemene gezondheid van het systeem te controleren en geeft waarschuwingen als bepaalde drempelwaarden worden overschreden.
+- **Monitoring**: Richt zich op het bewaken van kernstatistieken zoals CPU-gebruik, geheugen en foutpercentages. Het helpt om de algemene gezondheid van het systeem te controleren en geeft waarschuwingen als bepaalde drempelwaarden worden overschreden. (Khan, 2024)
   
-- **Tracing**: Dit is waar Jaeger in uitblinkt. Het volgt individuele verzoeken door een gedistribueerd systeem, zodat ontwikkelaars precies kunnen zien hoe een specifieke aanvraag door verschillende microservices stroomt. Dit helpt om bottlenecks of prestatieproblemen te identificeren.
+- **Tracing**: Dit is waar Jaeger in uitblinkt. Het volgt individuele verzoeken door een gedistribueerd systeem, zodat ontwikkelaars precies kunnen zien hoe een specifieke aanvraag door verschillende microservices stroomt. Dit helpt om bottlenecks of prestatieproblemen te identificeren. (Unlu, 2024)
   
-- **Logging**: Geeft gedetailleerde gebeurtenissen of foutmeldingen weer die tijdens de uitvoering van het systeem optreden. Logs zijn nuttig voor het achterhalen van specifieke gebeurtenissen of fouten in het systeem.
+- **Logging**: Geeft gedetailleerde gebeurtenissen of foutmeldingen weer die tijdens de uitvoering van het systeem optreden. Logs zijn nuttig voor het achterhalen van specifieke gebeurtenissen of fouten in het systeem. (Khan, 2024)
 
-Deze drie concepten vullen elkaar aan in het proces van systeemobservatie. **Jaeger** richt zich specifiek op **tracing**, wat betekent dat het zich bezighoudt met het volgen van de route van individuele verzoeken door verschillende services binnen een microservices-architectuur. Dit helpt bij het vinden van vertragingen, het opsporen van fouten en het verbeteren van de algehele prestaties van gedistribueerde systemen.
+Deze drie concepten vullen elkaar aan in het proces van systeemobservatie. **Jaeger** richt zich specifiek op **tracing**, wat betekent dat het zich bezighoudt met het volgen van de route van individuele verzoeken door verschillende services binnen een microservices-architectuur. Dit helpt bij het vinden van vertragingen, het opsporen van fouten en het verbeteren van de algehele prestaties van gedistribueerde systemen. (Khan, 2024)
 
 | **Toepassing**                | **Beschrijving**                                                                              |
 |-------------------------------|----------------------------------------------------------------------------------------------|
@@ -357,3 +357,5 @@ Door de bovenstaande aanbevelingen op te volgen, kunnen DevOps-teams de effectiv
 - Datadog. (2016, July 14). Cloud monitoring as a service | DataDog. Datadog. https://www.datadoghq.com/
 - New Relic, Inc. (n.d.). Collaboration_GFX_01 [Video]. New Relic. https://newrelic.com/
 - Observability Platform Powered by OpenTelemetry, Aspecto. (2023, August 10). Observability platform built for modern R&D teams | Aspecto. Aspecto. https://www.aspecto.io/
+- Unlu, O. (2024, August 22). Tracing vs. logging - key differences + Examples. Edge Delta. https://edgedelta.com/company/blog/tracing-vs-logging-differences-with-examples
+- Khan, A. (2024, July 8). Difference between logging vs. monitoring vs. tracing. BigOhTech. https://bigohtech.com/logging-vs-monitoring-vs-tracing/

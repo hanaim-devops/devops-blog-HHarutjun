@@ -1,6 +1,6 @@
 # Blog-post Jaeger
 
-<img src="plaatjes/mdbook_logo.png" width="250" align="right" alt="mdbook logo om weg te halen" title="maar vergeet de alt tekst niet">
+<img src="plaatjes/jaeger-icon-color.png" width="250" align="right" alt="Jaeger logo">
 
 *[Harutjun Harutjunjan, oktober 2024.](https://github.com/hanaim-devops/devops-blog-HHarutjun)*
 <hr/>

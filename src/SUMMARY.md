@@ -1,5 +1,5 @@
 # Summary
 
 - [Home](./README.md)
-- [Dev blog](./dev-blog-name-in-kebab-case/README.md)
+- [Dev blog](./devops-blog-harutjun/devops-tracing-met-jaeger)
 - [Onderzoeksplan](./onderzoeksplan.md)

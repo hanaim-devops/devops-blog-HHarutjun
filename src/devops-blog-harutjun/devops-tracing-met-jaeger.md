@@ -1,4 +1,4 @@
-# Blog-post Jaeger
+# Devops Tracing met Jaeger
 
 <img src="plaatjes/jaeger-icon-color.png" width="250" align="right" alt="Jaeger logo">
 
@@ -7,7 +7,7 @@
 
 ## Inhoudsopgave
 
-- [Blog-post Jaeger](#blog-post-jaeger)
+- [Devops Tracing met Jaeger](#devops-tracing-met-jaeger)
   - [Inhoudsopgave](#inhoudsopgave)
   - [Inleiding](#inleiding)
   - [Aanleiding](#aanleiding)
